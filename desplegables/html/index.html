@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplegables</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body class="my_body">
+    <div class="container">
+        <!--
+        <h1 class="titulo">Ejemplo categorias</h1>
+        -->
+        
+        <label data-id-label-categoria="0" name="label-categoria[]" class="label-categoria">Category one [+]</label>
+        <div data-id-content-categoria= "0" class="content-categoria">
+            <label for="">Option 1</label>    
+            <input name="checkbox_0" id="id_checkbox_0" type="checkbox">
+            <br>
+            <label for="">Option 2</label>    
+            <input name="checkbox_1" id="id_checkbox_1" type="checkbox">
+            <br>
+            <label for="">Option 3</label>    
+            <input name="checkbox_2" id="id_checkbox_2" type="checkbox">
+            <br>
+            <label for="">Option 4</label>    
+            <input name="checkbox_3" id="id_checkbox_3" type="checkbox">
+            <br>
+            <label for="">Option 5</label>    
+            <input name="checkbox_4" id="id_checkbox_4" type="checkbox">
+            <br>
+        </div>
+
+        <br>
+        <!-- categoria two -->
+        <label data-id-label-categoria="1" name="label-categoria[]" class="label-categoria">Category two [+]</label>
+        <div data-id-content-categoria= "1" class="content-categoria">
+            <label for="">Option 6</label>    
+            <input name="checkbox_5" id="id_checkbox_5" type="checkbox">
+            <br>
+            <label for="">Option 7</label>    
+            <input name="checkbox_6" id="id_checkbox_6" type="checkbox">
+            <br>
+            <label for="">Option 8</label>    
+            <input name="checkbox_7" id="id_checkbox_7" type="checkbox">
+            <br>
+            <label for="">Option 9</label>    
+            <input name="checkbox_8" id="id_checkbox_8" type="checkbox">
+            <br>
+            <label for="">Option 10</label>    
+            <input name="checkbox_9" id="id_checkbox_9" type="checkbox">
+        </div>
+        <br>
+        <button class="button_plegar my_button">Collapse all</button>
+        <button class="button_desplegar my_button">Expand all</button>
+        <br>
+        <button class="button_css my_button">Css Display Block / Flex</button>
+    <br>
+    </div>
+    <!-- container -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/desplegables_prototype.js"></script>
+</body>
+</html>
